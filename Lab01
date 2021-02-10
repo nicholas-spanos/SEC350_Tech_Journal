@@ -3,3 +3,12 @@ VyOS Commands:
   commit - commits changes
   save - saves changes
   exit - allows you to exit configuration mode (make sure to save first)
+
+  To change hostname:
+    configure
+    set system host-name <name>
+    commit
+    save
+    exit
+    
+  
