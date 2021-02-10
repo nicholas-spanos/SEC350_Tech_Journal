@@ -1,0 +1,5 @@
+VyOS Commands:
+  configure - allows you to edit
+  commit - commits changes
+  save - saves changes
+  exit - allows you to exit configuration mode (make sure to save first)
