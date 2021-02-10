@@ -1,0 +1,9 @@
+Web Server and Jump Box:
+  Section 02: 
+    Internal (default ports):
+      SSH: 10.0.17.3
+      Web: http://10.0.17.3/sec350/
+    External: 
+      SSH (port = 2222): 192.168.4.32
+      Web: http://192.168.4.32:8080/sec350/
+
