@@ -1,0 +1,7 @@
+VyOS 
+  Check timezone: >date
+  
+  
+CentOS
+  Change timezone: >sudo timedatectl set-timezone [zone]
+  
