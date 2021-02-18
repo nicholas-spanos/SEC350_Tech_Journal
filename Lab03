@@ -1,0 +1,15 @@
+DMZ NAT Source Rule:
+  configure
+  set nat source rule [num] description “[description]”
+  set nat source rule [num] outbound-interface [interface (eth0,eth1,eth2,etc.)]
+  set nat source rule [num] source address [address]
+  set nat source rule [num] translation address masquerade
+  commit
+  save
+  
+Set DNS Forwarding:
+  set service dns forwarding listen-address [address]
+  set service dns forwarding allow from [address]
+  commit
+  save
+
